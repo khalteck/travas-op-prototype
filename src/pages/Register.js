@@ -99,7 +99,7 @@ const Register = ({
           {/* Register */}
           <div className="pt-8">
             <button
-              onClick={regGo}
+              onClick={register}
               className="bg-[#B6B1B1] font-semibold text-center py-3 w-full rounded-sm pointer"
               type="submit"
             >
