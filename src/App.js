@@ -124,6 +124,9 @@ function App() {
       .catch((err) => {
         setShowLoader(false);
         console.log(err.message);
+        if (err.message === "Firebase: Error (auth/email-already-in-use).") {
+          alert("email already in use");
+        }
       });
   };
 
